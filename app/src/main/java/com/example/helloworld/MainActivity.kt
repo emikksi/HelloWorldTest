@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             HelloWorldTheme {
                 // A surface container using the 'background' color from the theme
+                // Nowy komentarz
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
